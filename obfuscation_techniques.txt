@@ -1,16 +1,18 @@
 ########## Obfuscation techniques ##########
 // Naming & Scope
-- Inappropriate naming
+- Non-PEP8 naming
 - Name mangling (double underscore prefix)
 - Dunder abuse
 - Homoglyphs (l, 1, I; O, 0)
 - Shadowing built-ins functions
+- Non-declaration of constants
 
 // Control Flow
 - Loop-else constructs (for-else, while-else)
 - Redundant paths
 - Control flow except abuse (StopIteration, IndexError)
 - Nested/ single-line expressions
+- Context managers
 
 // Syntax & Functional
 - Curried lambdas
@@ -21,10 +23,14 @@
 - Walrus assignment
 - Generators/ yield from
 - Custom exception logic
+- Incorrect comparators (is vs ==)
+- Redundant docstrings/ comments
+- Incorrect newlines and indents
 
 // Data Manipulation
 - Bitwise operator
 - Boolean arithmetic
+- Negative logic
 - Mutable default arguments (referencing)
 - Slicing function
 - String-ASCII manipulation
