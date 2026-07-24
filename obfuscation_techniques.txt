@@ -1,0 +1,32 @@
+########## Obfuscation techniques ##########
+// Naming & Scope
+- Inappropriate naming
+- Name mangling (double underscore prefix)
+- Dunder abuse
+- Homoglyphs (l, 1, I; O, 0)
+- Shadowing built-ins functions
+
+// Control Flow
+- Loop-else constructs (for-else, while-else)
+- Redundant paths
+- Control flow except abuse (StopIteration, IndexError)
+- Nested/ single-line expressions
+
+// Syntax & Functional
+- Curried lambdas
+- Immediately invoked function expressions
+- Decorator factories
+- Interception via decorators
+- Multiple decorators
+- Walrus assignment
+- Generators/ yield from
+- Custom exception logic
+
+// Data Manipulation
+- Bitwise operator
+- Boolean arithmetic
+- Mutable default arguments (referencing)
+- Slicing function
+- String-ASCII manipulation
+- Base representation
+- Format specifiers
