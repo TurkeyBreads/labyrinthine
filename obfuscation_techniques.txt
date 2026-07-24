@@ -6,6 +6,8 @@
 - Homoglyphs (l, 1, I; O, 0)
 - Shadowing built-ins functions
 - Non-declaration of constants
+- Class fortification
+- Type hints
 
 // Control Flow
 - Loop-else constructs (for-else, while-else)
