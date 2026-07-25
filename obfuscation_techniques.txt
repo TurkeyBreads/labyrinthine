@@ -44,6 +44,7 @@
 - Implicit string concatenation
 - Slice assignment mutation
 - Function aliasing
+- Redundant inheritance
 
 // Data Manipulation
 - Bitwise operators
