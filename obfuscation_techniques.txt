@@ -35,6 +35,7 @@
 - Custom exception logic
 - Incorrect comparators (is vs ==)
 - Redundant docstrings/ comments
+- Redundant lines
 - Incorrect newlines and indents
 - Comprehension side effects
 - Primitive operator overloading
