@@ -8,13 +8,22 @@
 - Non-declaration of constants
 - Class fortification
 - Type hints
+- Overriding exceptions
+- Definition-time default argument evaluation
+- Global/ local scoping pollution
+- Star unpacking assignment
 
 // Control Flow
 - Loop-else constructs (for-else, while-else)
 - Redundant paths
 - Control flow except abuse (StopIteration, IndexError)
+- Exception abuse
 - Nested/ single-line expressions
 - Context managers
+- Unclear recursion
+- Recursion within parameters
+- Async-await interweaving
+- Property side effects
 
 // Syntax & Functional
 - Curried lambdas
@@ -28,9 +37,16 @@
 - Incorrect comparators (is vs ==)
 - Redundant docstrings/ comments
 - Incorrect newlines and indents
+- Comprehension side effects
+- Primitive operator overloading
+- F-string side effects
+- Chained comparison operators
+- Implicit string concatenation
+- Slice assignment mutation
+- Function aliasing
 
 // Data Manipulation
-- Bitwise operator
+- Bitwise operators
 - Boolean arithmetic
 - Negative logic
 - Mutable default arguments (referencing)
@@ -38,3 +54,11 @@
 - String-ASCII manipulation
 - Base representation
 - Format specifiers
+- Floating point abuse
+- Chained assignment
+- Dictionary unpacking
+
+// Others
+- Dynamic class construction
+- Arbitrary arguments
+- Stack frame inspection
