@@ -6,3 +6,7 @@ Determine the value of the text in text_files\a.txt from the output (42593.0)
 
 ### retard
 Determine the output from the code.
+
+### nigga
+Determine the output from the code.
+
