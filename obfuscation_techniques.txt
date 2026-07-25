@@ -6,7 +6,6 @@
 - Homoglyphs (l, 1, I; O, 0)
 - Shadowing built-ins functions
 - Non-declaration of constants
-- Class fortification
 - Type hints
 - Overriding exceptions
 - Definition-time default argument evaluation
