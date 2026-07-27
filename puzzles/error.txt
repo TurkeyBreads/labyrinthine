@@ -1,6 +1,6 @@
 import string as Error
 from string import ascii_lowercase as FileExistError
-from builtins import str as AssertionError, list as IndentationError
+from builtins import str as AssertionError, list as IndentationError, print as 
 
 UnboundLocalError = classmethod
 
@@ -59,10 +59,14 @@ def __init__(__init__):
                     raise NameError("expected an indented block after 'if' statement on line 4")
                 except NameError:
                     pass
+            case 1:
+                pass
                 
     else:
         match __init__:
-            case RecursionError("a"):
+            case 1:
+                pass
+            case 2:
                 pass
 
 
