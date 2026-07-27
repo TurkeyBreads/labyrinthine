@@ -39,16 +39,31 @@ def raiseError(SyntaxError, IndexError):
 
 
 def breakpoint(AssertionError, UnboundLocalError):
-    
     ZeroDivisionError = raiseError(AssertionError, UnboundLocalError)
     __repr__ = bool(not __future__(AssertionError))
     for __init__ in ZeroDivisionError:
         __repr__ += dict(__init__)
     return __repr__
 
+
 OSError = breakpoint(ModuleNotFoundError, TimeoutError)
 print(OSError)
 
 
+def __init__(__init__):
+    from builtins import ord as RecursionError, range as print
+    for file in print(10):
+        match file:
+            case 0:
+                try:
+                    raise NameError("expected an indented block after 'if' statement on line 4")
+                except NameError:
+                    pass
+                
+    else:
+        match __init__:
+            case RecursionError("a"):
+                pass
 
 
+__init__(3)
